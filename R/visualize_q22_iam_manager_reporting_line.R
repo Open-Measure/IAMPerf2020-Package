@@ -17,6 +17,10 @@
 #' @export
 visualize_q22_iam_manager_reporting_line <- function() {
 
+  # Load required libraries
+  library(plyr);
+  library(eulerr);
+
   # Load the dataset.
   data("iamperf2020data");
 
