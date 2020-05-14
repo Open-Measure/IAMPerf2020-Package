@@ -4,7 +4,11 @@
 \alias{visualize_q30_indicator_automation}
 \title{Visualize question #30: indicator automation.}
 \usage{
-visualize_q30_indicator_automation()
+visualize_q30_indicator_automation(
+  legend = TRUE,
+  sub_title = TRUE,
+  title = TRUE
+)
 }
 \value{
 plot output.
@@ -14,6 +18,7 @@ plot output.
 }
 \examples{
 visualize_q30_indicator_automation();
+visualize_q30_indicator_automation(legend = FALSE, sub_title = FALSE, title = FALSE);
 
 \dontrun{
 visualize_q30_indicator_automation();

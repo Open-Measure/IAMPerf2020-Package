@@ -1,11 +1,11 @@
 Package: iamperf2020
 Type: Package
 Title: The Open-Measure IAM Performance Measurement Survey 2020
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Version: 0.1.1
+Author: David Doret
+Maintainer: The package maintainer <david.doret@open-measure.org>
 Description: Helper functions to retrieve and visualize the survey data.
-License: MIT + file LICENSE
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
