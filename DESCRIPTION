@@ -1,0 +1,23 @@
+Package: iamperf2020
+Type: Package
+Title: The Open-Measure IAM Performance Measurement Survey 2020
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Helper functions to retrieve and visualize the survey data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  plotrix,
+  sjlabelled,
+  knitr,
+  plyr,
+  formattable,
+  haven,
+  graphics,
+  psych,
+  likert,
+  stringr.tools,
+  eulerr  
+RoxygenNote: 7.1.0
