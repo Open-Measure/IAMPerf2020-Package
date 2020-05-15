@@ -7,10 +7,10 @@
 get_color_by_index(integer_index)
 }
 \arguments{
-\item{integer_index:}{the index value of the value that is to be retrieved.}
+\item{integer_index}{The index value of the value that is to be retrieved.}
 }
 \value{
-the color in hex RGB format.
+The color in hex RGB format.
 }
 \description{
 `get_color_by_index(integer_index)` return the color corresponding to the index value.

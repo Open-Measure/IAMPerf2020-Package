@@ -1,6 +1,10 @@
 #' Visualize question #30: indicator automation.
 #'
-#' `visualize_q29_indicator_communication(survey_rawdata)` visualizes question data.
+#' `visualize_q29_indicator_communication()` visualizes question data.
+#'
+#' @param legend (boolean) Whether the graph legend should be plotted.
+#' @param sub_title (boolean) Whether the graph sub title should be plotted.
+#' @param title (boolean) Whether the graph title should be plotted.
 #'
 #' @return plot output.
 #'
@@ -18,8 +22,12 @@ visualize_q30_indicator_automation <- function(
   sub_title = TRUE,
   title = TRUE) {
 
+  # Binds global variables locally to the function
+  # Ref: https://www.r-bloggers.com/no-visible-binding-for-global-variable/
+  iamperf2020data = NULL;
+
   # Load the dataset.
-  data("iamperf2020data");
+  utils::data("iamperf2020data");
 
   # Remove dropouts.
   data_frequencies = iamperf2020data$Q30[!is.na(iamperf2020data$Q30)];

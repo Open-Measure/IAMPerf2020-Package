@@ -10,11 +10,18 @@ visualize_q30_indicator_automation(
   title = TRUE
 )
 }
+\arguments{
+\item{legend}{(boolean) Whether the graph legend should be plotted.}
+
+\item{sub_title}{(boolean) Whether the graph sub title should be plotted.}
+
+\item{title}{(boolean) Whether the graph title should be plotted.}
+}
 \value{
 plot output.
 }
 \description{
-`visualize_q29_indicator_communication(survey_rawdata)` visualizes question data.
+`visualize_q29_indicator_communication()` visualizes question data.
 }
 \examples{
 visualize_q30_indicator_automation();

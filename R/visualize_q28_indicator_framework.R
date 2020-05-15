@@ -19,8 +19,12 @@
 #' @export
 visualize_q28_indicator_framework <- function() {
 
+  # Binds global variables locally to the function
+  # Ref: https://www.r-bloggers.com/no-visible-binding-for-global-variable/
+  iamperf2020data = NULL;
+
   # Load the dataset.
-  data("iamperf2020data");
+  utils::data("iamperf2020data");
 
   # Retrieve the applicable answers.
   question_number = 28;
@@ -83,7 +87,7 @@ visualize_q28_indicator_framework <- function() {
 
   likert_colors = c("#ff6600", "#ff9955", "#dddddd", "#5599ff", "#0066ff");
 
-  plot(
+  graphics::plot(
     likert_data,
     type = "bar",
     col = likert_colors);

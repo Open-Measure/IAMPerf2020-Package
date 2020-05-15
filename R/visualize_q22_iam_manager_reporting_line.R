@@ -17,12 +17,12 @@
 #' @export
 visualize_q22_iam_manager_reporting_line <- function() {
 
-  # Load required libraries
-  library(plyr);
-  library(eulerr);
+  # Binds global variables locally to the function
+  # Ref: https://www.r-bloggers.com/no-visible-binding-for-global-variable/
+  iamperf2020data = NULL;
 
   # Load the dataset.
-  data("iamperf2020data");
+  utils::data("iamperf2020data");
 
   # Retrieve the applicable answers.
   question_number = 22;
@@ -107,7 +107,7 @@ visualize_q22_iam_manager_reporting_line <- function() {
 
   palette = c("#ff6600", "#ff9955", "#5599ff", "#0066ff", "#dddddd");
 
-  plot(
+  graphics::plot(
     eulerr::euler(euler_data),
     labels = value_columns,
     fills = palette,

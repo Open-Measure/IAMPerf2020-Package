@@ -12,9 +12,9 @@ names(color_palette) = c("Dark orange", "Light orange", "Light grey", "Light blu
 #'
 #' `get_color_by_index(integer_index)` return the color corresponding to the index value.
 #'
-#' @param integer_index: the index value of the value that is to be retrieved.
+#' @param integer_index The index value of the value that is to be retrieved.
 #'
-#' @return the color in hex RGB format.
+#' @return The color in hex RGB format.
 #'
 #' @examples
 #' get_color_by_index(-1);

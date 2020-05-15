@@ -19,8 +19,12 @@
 #' @export
 visualize_q31_indicator_coverage <- function() {
 
+  # Binds global variables locally to the function
+  # Ref: https://www.r-bloggers.com/no-visible-binding-for-global-variable/
+  iamperf2020data = NULL;
+
   # Load the dataset.
-  data("iamperf2020data");
+  utils::data("iamperf2020data");
 
   # Retrieve the applicable answers.
   question_number = 31;
@@ -95,7 +99,7 @@ visualize_q31_indicator_coverage <- function() {
 
   likert_colors = c("#ff9955", "#dddddd", "#5599ff");
 
-  plot(
+  graphics::plot(
     likert_data,
     type = "bar",
     col = likert_colors);

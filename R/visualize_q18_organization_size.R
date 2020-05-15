@@ -14,8 +14,12 @@
 #' @export
 visualize_q18_organization_size <- function() {
 
+  # Binds global variables locally to the function
+  # Ref: https://www.r-bloggers.com/no-visible-binding-for-global-variable/
+  iamperf2020data = NULL;
+
   # Load the dataset.
-  data("iamperf2020data");
+  utils::data("iamperf2020data");
 
   # Remove dropouts.
   data_frequencies = iamperf2020data$Q18[!is.na(iamperf2020data$Q18)];
