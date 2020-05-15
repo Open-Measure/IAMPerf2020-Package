@@ -7,10 +7,10 @@
 spssfile_load(spssfile_path = NULL)
 }
 \arguments{
-\item{spssfile_path:}{the path of the SPSS file.}
+\item{spssfile_path}{The path of the SPSS file to be loaded.}
 }
 \value{
-output the SPSS file data frame.
+Output the SPSS file data frame.
 }
 \description{
 References:
@@ -21,7 +21,6 @@ References:
 `spssfile_load(spssfile_path)` load the raw survey data in SPSS format.
 }
 \examples{
-spssfile_load(spssfile_path);
 
 \dontrun{
 spssfile_load(spssfile_path);

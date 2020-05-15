@@ -9,6 +9,7 @@ License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
+  labelled,
   utils,
   tidyr,
   plotrix,

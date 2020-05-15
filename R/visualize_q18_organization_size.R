@@ -5,7 +5,6 @@
 #' @return plot output.
 #'
 #' @examples
-#' visualize_q18_organization_size();
 #'
 #' \dontrun{
 #' visualize_q18_organization_size();

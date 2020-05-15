@@ -6,7 +6,6 @@
 #' @return nothing.
 #'
 #' @examples
-#' setup_dataset();
 #'
 #' \dontrun{
 #' setup_dataset();
@@ -109,5 +108,7 @@ setup_dataset <- function() {
   );
 
   # Save the file in
-  save(iamperf2020data, file="data/iamperf2020data.RData")
+  save(iamperf2020data, file="data/iamperf2020data.RData");
+  write.csv(iamperf2020data,"data/iamperf2020data.csv");
+
 }

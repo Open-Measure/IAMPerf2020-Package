@@ -13,7 +13,6 @@ plot output.
 `visualize_organization_size()` visualizes question data.
 }
 \examples{
-visualize_q18_organization_size();
 
 \dontrun{
 visualize_q18_organization_size();

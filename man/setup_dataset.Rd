@@ -14,7 +14,6 @@ nothing.
 `setup_dataset()` Prepare the dataset and output the package RData file in the /data folder.
 }
 \examples{
-setup_dataset();
 
 \dontrun{
 setup_dataset();

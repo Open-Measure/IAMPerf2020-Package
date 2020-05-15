@@ -6,12 +6,11 @@
 #'
 #' `spssfile_load(spssfile_path)` load the raw survey data in SPSS format.
 #'
-#' @param spssfile_path: the path of the SPSS file.
+#' @param spssfile_path The path of the SPSS file to be loaded.
 #'
-#' @return output the SPSS file data frame.
+#' @return Output the SPSS file data frame.
 #'
 #' @examples
-#' spssfile_load(spssfile_path);
 #'
 #' \dontrun{
 #' spssfile_load(spssfile_path);
